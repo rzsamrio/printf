@@ -4,7 +4,8 @@
 
 /*
  * _printf - Make printf function
- * @format : a string
+ * @format : a string containing zero or more directives
+ * Return: number of characters printed (excluding null bytes)
  */
 
 int _printf(const char *format, ...)
